@@ -83,6 +83,7 @@ hr{
 }
 
 .question h2{
+    font-weight: 700;
     font-size: 18px;
     color: hsl(292, 42%, 14%);
     margin-left: 40px;

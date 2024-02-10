@@ -1,0 +1,22 @@
+@media only screen and (max-width: 630px) {
+    .container {
+        min-width: auto; 
+        width: 90%;
+    }
+
+    .faqs h1 {
+        font-size: 38px;
+    }
+
+    .faqs img{
+        width: 30px;
+    }
+
+    .question {
+        width: 90%;
+    }
+
+    .question h2 {
+        width: 80%;
+    }
+}
