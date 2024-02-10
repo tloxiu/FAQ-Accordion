@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(275, 100%, 97%);
+    background-image: url("assets/background-pattern-desktop.svg");
+    background-repeat: repeat-x;
+    background-position: center top;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Work sans";
+}
+
+.container{
+    position: relative;
+    background-color: white;
+    border-radius: 15px;
+    min-width: 600px;
+    margin-bottom: 63.1px;
+    height: auto;
+    padding-bottom: 40px;
+    -webkit-box-shadow: 0px 11px 107px -54px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 11px 107px -54px rgba(0,0,0,0.75);
+    box-shadow: 0px 11px 107px -54px rgba(0,0,0,0.75);
+}
+
+.faqs{
+    font-weight: 700;
+    display: flex;
+}
+
+.faqs h1{
+    font-size: 56px;
+    margin-left: 24px;
+    margin-top: 40px;
+}
+
+.faqs img{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+hr{
+    opacity: 16%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 87%;
+    margin-top: 25px;
+}
+
+
+.open p{
+    opacity: 1;
+    max-height: 200px;
+}
+
+.close p{
+    display: none;
+    max-height: 0px;
+}
+
+.question{
+    width: 560px;
+}
+
+.question div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.question h2{
+    font-size: 18px;
+    color: hsl(292, 42%, 14%);
+    margin-left: 40px;
+    margin-top: 37px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.question h2:hover{
+    color: #ad28eb;
+}
+
+.question p{
+    font-size: 16px;
+    color: hsl(292, 16%, 49%);
+    margin-left: 40px;
+    margin-top: 23px;
+    line-height: 24px;
+}
+
+.question div img{
+    margin-top: 32px;
+}
+
+.lower{
+    padding-top: 16px;
+}
+
+img{
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+img:hover{
+    cursor: pointer;
+    opacity: 70%;
+}
+
